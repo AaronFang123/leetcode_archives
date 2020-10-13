@@ -17,7 +17,7 @@
 // 👍 692 👎 0
 
 
-package leetcode.editor.leetcode_cn;
+package leetcode.editor.cn;
 
 //最小路径和
 //提交时间 2020-10-11 16:23:18

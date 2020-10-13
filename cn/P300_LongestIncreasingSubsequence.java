@@ -18,7 +18,7 @@
 // 👍 1072 👎 0
 
 
-package leetcode.editor.leetcode_cn;
+package leetcode.editor.cn;
 
 import java.util.Arrays;
 

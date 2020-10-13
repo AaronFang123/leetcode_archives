@@ -32,7 +32,7 @@
 // 👍 1102 👎 0
 
 
-package leetcode.editor.leetcode_cn;
+package leetcode.editor.cn;
 
 //打家劫舍
 //提交时间 2020-10-09 16:28:48

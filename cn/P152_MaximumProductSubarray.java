@@ -18,7 +18,7 @@
 // 👍 791 👎 0
 
 
-package leetcode.editor.leetcode_cn;
+package leetcode.editor.cn;
 
 //乘积最大子数组
 //提交时间 2020-10-12 09:51:01

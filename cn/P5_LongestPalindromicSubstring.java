@@ -16,7 +16,7 @@
 // 👍 2795 👎 0
 
 
-package leetcode.editor.leetcode_cn;
+package leetcode.editor.cn;
 
 //最长回文子串
 //提交时间 2020-10-13 11:17:38

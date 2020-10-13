@@ -32,7 +32,7 @@
 // 👍 492 👎 0
 
 
-package leetcode.editor.leetcode_cn;
+package leetcode.editor.cn;
 
 //分割等和子集
 //提交时间 2020-10-11 14:03:47

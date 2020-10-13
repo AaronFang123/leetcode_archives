@@ -38,7 +38,7 @@
 // 👍 707 👎 0
 
 
-package leetcode.editor.leetcode_cn;
+package leetcode.editor.cn;
 
 //不同路径
 //提交时间 2020-10-09 16:47:49

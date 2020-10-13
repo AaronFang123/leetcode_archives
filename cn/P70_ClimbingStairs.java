@@ -25,7 +25,7 @@
 // 👍 1269 👎 0
 
 
-package leetcode.editor.leetcode_cn;
+package leetcode.editor.cn;
 
 //爬楼梯
 //提交时间 2020-10-09 15:11:24

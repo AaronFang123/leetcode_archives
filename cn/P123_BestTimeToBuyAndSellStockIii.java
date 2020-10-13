@@ -29,7 +29,7 @@
 // 👍 524 👎 0
 
 
-package leetcode.editor.leetcode_cn;
+package leetcode.editor.cn;
 
 //买卖股票的最佳时机 III
 //提交时间 2020-10-11 14:23:01

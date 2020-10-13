@@ -15,7 +15,7 @@
 // 👍 623 👎 0
 
 
-package leetcode.editor.leetcode_cn;
+package leetcode.editor.cn;
 
 //完全平方数
 //提交时间 2020-10-11 17:02:20

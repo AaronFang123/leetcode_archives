@@ -12,25 +12,10 @@
 // 👍 657 👎 0
 
 
-package leetcode.editor.leetcode_cn;
+package leetcode.editor.cn;
 
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
+import leetcode.editor.cn.base.ListNode;
 
 //两两交换链表中的节点
 //提交时间 2020-10-13 09:08:48
