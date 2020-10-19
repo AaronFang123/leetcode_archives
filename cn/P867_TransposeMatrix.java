@@ -30,12 +30,16 @@
 
 package leetcode.editor.cn;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 //转置矩阵
 //提交时间 2020-10-17 16:10:30
 class P867_TransposeMatrix{
 	 public static void main(String[] args) {
 	 	 //测试代码
 	 	 Solution solution = new P867_TransposeMatrix().new Solution();
+//		 System.out.println(solution.maxDepth("(1)+((2))+(((3)))"));
 	 }
 //力扣代码
 	//leetcode submit region begin(Prohibit modification and deletion)
@@ -55,6 +59,27 @@ class Solution {
 		}
 		return A;
 	}
+
+	public int maxDepth(String s) {
+		int countMax = 0;
+		Deque<Character> stack = new ArrayDeque<>();
+		int lenOfString = s.length();
+		// 若是左括号或右括号
+		for (int i = 0; i < lenOfString; i++){
+			if (s.charAt(i) == '('){
+				stack.addLast(')');
+				countMax = Math.max(countMax, stack.size());
+			}
+			else if(s.charAt(i) ==')' && !stack.isEmpty()){
+				if (stack.peekLast() == ')'){
+
+					stack.pop();
+				}
+			}
+		}
+		return countMax;
+	}
+	
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
