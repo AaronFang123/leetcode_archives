@@ -17,6 +17,7 @@
 package leetcode.editor.cn;
 
 import leetcode.editor.cn.base.ListNode;
+import leetcode.editor.cn.base.TreeNode;
 
 //排序链表
 //提交时间 2020-10-19 19:52:01
@@ -24,6 +25,8 @@ class P148_SortList{
 	 public static void main(String[] args) {
 	 	 //测试代码
 	 	 Solution solution = new P148_SortList().new Solution();
+		 ListNode testcase = ListNode.initLinkListByArray( new int[]{1,3,2,4,6,5});
+		 ListNode.printLinkedList(solution.sortList(testcase));
 	 }
 //力扣代码
 	//leetcode submit region begin(Prohibit modification and deletion)
@@ -50,8 +53,7 @@ class Solution {
 				ListNode h1 = cur;
 				ListNode h2 = split(h1, step);
 				cur = split(h2, step); // 剩余部分的头
-				ListNode temp = merge(h1, h2);
-				pre.next = temp;
+				pre.next = merge(h1, h2);
 				while (pre.next != null) pre = pre.next;
 			}
 		}
@@ -84,11 +86,11 @@ class Solution {
 		if (head == null || head.next == null) return head;
 		ListNode slow = head;
 		ListNode fast = head;
-		ListNode pre = null;
+		ListNode pre = slow;
 
 		// 快慢指针分成两半
 		while (fast != null && fast.next != null){
-			pre = fast;
+			pre = slow;
 			slow = slow.next;
 			fast = fast.next.next;
 		}
