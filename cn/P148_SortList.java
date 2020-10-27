@@ -17,7 +17,6 @@
 package leetcode.editor.cn;
 
 import leetcode.editor.cn.base.ListNode;
-import leetcode.editor.cn.base.TreeNode;
 
 //排序链表
 //提交时间 2020-10-19 19:52:01
